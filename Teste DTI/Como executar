@@ -1,0 +1,19 @@
+sistema-notas/
+├── backend/
+│   ├── server.js
+│   ├── alunos.db (criado automaticamente)
+│   └── package.json
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   └── App.jsx
+│   ├── package.json
+│   └── node_modules/
+
+
+// Rodar o backend
+cd backend
+node server.js
+// Rodar o frontend
+cd frontend
+npm start
